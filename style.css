@@ -1,0 +1,197 @@
+.hero {
+    width: auto;
+    height: 740px;
+    top: 740px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    background-size: cover;
+}
+
+.judul {
+    /* Sebaran Peluang Distribusi Eksponensial */
+
+    position: absolute;
+    width: 945px;
+    height: 196px;
+    left: 134px;
+    top: 197px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 97px;
+
+    color: #000000;
+}
+
+p {
+    position: absolute;
+    width: 724px;
+    height: 49px;
+    left: 134px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.seksion2 {
+    width: auto;
+    height: 740px;
+    top: 740px;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    background-size: cover;
+}
+
+.jd2 {
+    position: absolute;
+
+    top: 790px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 97px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.deskripsi {
+    position: absolute;
+    width: 1100px;
+    height: 180px;
+    left: calc(50% -1100px/2 - 1px);
+    top: 920px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.rumus {
+    position: absolute;
+    top: 1100px;
+}
+
+h2 {
+    /* Rumus PDF */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.seksion3 {
+    width: auto;
+    height: 740px;
+    top: 740px;
+    display: flex;
+
+    background: #fff;
+    background-size: cover;
+}
+.jd3{
+/* Kalkulator Eksponensial */
+
+    position: absolute;
+        left: 50px;
+    top: 1500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+
+    color: #000000;
+}
+h6{
+    /* Masukan Mean, P(X<x) & P(X<x) */
+    
+        position: absolute;
+        left: 50px;
+       top: 1580px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+    
+        color: #000000;
+}
+.form{
+    position: absolute;
+    top: 1615px;
+    left: 50px;
+}
+.hasil{
+    position: absolute;
+    top: 1700px;
+    
+}
+.footer{
+width: auto;
+    height: 400px;
+    top: 740px;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    background-size: cover;
+}
+.jd4{
+    position: absolute;
+        top: 2210px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 97px;
+        /* identical to box height */
+    
+        color: #FFFFFF;
+}
+
+/* foto-foto */
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.friend {
+    text-align: center;
+}
+
+.friend img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
